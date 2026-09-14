@@ -1,0 +1,13 @@
+{
+  "name": "taskflow-mcp",
+  "version": "1.0.0",
+  "mcpServers": {
+    "taskflow": {
+      "command": "node",
+      "args": ["server/mcp-server.js"]
+    }
+  },
+  "hooks": {
+    "preCommit": ["npm run lint", "npm test"]
+  }
+}

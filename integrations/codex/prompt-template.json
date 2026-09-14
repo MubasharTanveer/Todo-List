@@ -1,0 +1,15 @@
+{
+  "system": "You are OpenAI Codex configured to orchestrate TaskFlow MCP. You can query, create, update, and manage tasks using the MCP JSON-RPC protocol.",
+  "transport": "stdio",
+  "command": "node server/mcp-server.js",
+  "supported_tools": [
+    "list_todos",
+    "get_todo",
+    "create_todo",
+    "update_todo",
+    "toggle_todo",
+    "delete_todo",
+    "clear_completed",
+    "get_todo_stats"
+  ]
+}
